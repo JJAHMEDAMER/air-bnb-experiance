@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: "Poppins";
 }
 
@@ -17,15 +17,43 @@ body{
     padding-left: 25px;
 }
 
-.hero-section{
+.hero-section {
     margin: 50px;
     display: flex;
     flex-direction: column;
 
 }
 
-.hero-img{
+.hero-img {
     height: 232px;
     width: 396px;
     align-self: center;
+}
+
+
+.card {
+    margin-left: 25px;
+    width: 176px;
+    font-size: 12px;
+}
+
+.card--img {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card--stats {
+    display: flex;
+}
+
+.card--reviews {
+    margin-left: 5px;
+}
+
+.card--reviews>span {
+    color: rgb(150, 150, 150)
+}
+
+.card--price>span {
+    font-weight: 700;
 }
