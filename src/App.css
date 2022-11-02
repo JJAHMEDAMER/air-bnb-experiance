@@ -5,10 +5,27 @@
     padding: 0;
 }
 
+body{
+    font-family: "Poppins";
+}
+
 .app-navbar {
     height: 70px;
-    box-shadow: 0 0 7px 0 rgb(40, 40, 40);
+    box-shadow: 0 0 7px 0 rgb(150, 150, 150);
     display: flex;
     align-items: center;
     padding-left: 25px;
+}
+
+.hero-section{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-img{
+    height: 232px;
+    width: 396px;
+    align-self: center;
 }
