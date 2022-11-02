@@ -1,11 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// Styling
+import "./App.css"
+
+// Components
+import App from "./App"
+
+
+
 const root = document.getElementById("root");
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Hello World</h1>
+    <App/>
   </React.StrictMode>,
   root
 );
