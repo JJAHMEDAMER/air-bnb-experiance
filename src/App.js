@@ -7,10 +7,17 @@ import Card from "./comp/card"
 
 
 const App = () => (
+
   <div>
     <NavBar />
     <HeroSection/>
-    <Card/>
+    <Card 
+        img="man.png" 
+        rating = "5.0"
+        reviewCount = "6"
+        title = "Life Lessons with Katie Zaferes"
+        price = "136"
+    />
   </div>
 );
 

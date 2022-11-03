@@ -1,21 +1,24 @@
 import React from "react";
 
 //Images
-import manImg from "../assets/man.png";
 import star from "../assets/star.png";
 
-const Card = () => (
+const Card = (props) => (
   <div className="card">
-    <img src={manImg} alt="ManImage" className="card--img"/>
+    <img
+      src={require(`../assets/${props.img}`)}
+      alt="ManImage"
+      className="card--img"
+    />
     <div className="card--stats">
       <img src={star} alt="star" />
       <p className="card--reviews">
-        5.0 <span>(6).USA</span>
+        {props.rating} <span>({props.reviewCount}).USA</span>
       </p>
     </div>
-    <p>Life lessons with Katie Zaferes</p>
+    <p>{props.title}</p>
     <p className="card--price">
-      <span>From $136</span> / person
+      <span>From ${props.price}</span> / person
     </p>
   </div>
 );
