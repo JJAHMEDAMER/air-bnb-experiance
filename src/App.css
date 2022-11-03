@@ -57,3 +57,7 @@ body {
 .card--price>span {
     font-weight: 700;
 }
+
+.card--list{
+    display: flex;
+}
