@@ -10,11 +10,7 @@ import data from "./data";
 
 let appCards = data.map((item) => (
   <Card
-    img={item.coverImg}
-    rating={item.stats.rating}
-    reviewCount={item.stats.reviewCount}
-    title={item.title}
-    price={item.price}
+    item = {item}
   />
 ));
 
